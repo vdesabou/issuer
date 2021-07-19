@@ -33,3 +33,6 @@ Generates a keytab for the service SERVICENAME/HOST@EXAMPLE.COM
 The bash scripts are included with the help of [go-bindata](https://github.com/jteeuwen/go-bindata). You need it on the path.
 
 The easiest way to build it is using [goreleaser](https://github.com/goreleaser/goreleaser) utility,
+
+
+goreleaser release --snapshot --skip-publish --rm-dist
